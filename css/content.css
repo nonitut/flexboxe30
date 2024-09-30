@@ -1,0 +1,75 @@
+.container{
+    width: 100%; /* ширина контейнера */
+    background: lemonchiffon;
+    display: flex ; /* включаем flex модель  */
+    justify-content: center; /* выравниваем коробочки по центу */
+}
+
+.unit{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px; /* скругление углов */
+    background: blue;
+    color:  lemonchiffon;
+    margin: 1%; /* внешний отступ */
+    text-align: center;   /* выравнивание текста по центру */
+    line-height: 50px;
+}
+
+.boxes{
+    width: 100%; /* ширина контейнера */
+    background: lemonchiffon;
+    display: flex ; /* включаем flex модель  */
+    justify-content: flex-end; /* выравниваем коробочки c правой стороны */ 
+}
+
+.its{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px; /* скругление углов */
+    background: rgb(255, 0, 234);
+    color:  lemonchiffon;
+    margin: 1%; /* внешний отступ */
+    text-align: center;   /* выравнивание текста по центру */
+    line-height: 50px;   /* высота текста  */
+}
+
+.magicone{
+    width: 100%; /* ширина контейнера */
+    background: lemonchiffon;
+    display: flex ; /* включаем flex модель  */
+    justify-content: flex-start; /* выравниваем коробочки c правой стороны */
+}
+
+.cvark{
+    width: 100%; /* ширина контейнера */
+    background: lemonchiffon;
+    display: flex ; /* включаем flex модель  */
+    justify-content: space-around; /* выравниваем коробочки c правой стороны */
+}
+
+.colorone{
+    width: 100%; /* ширина контейнера */
+    background: lemonchiffon;
+    display: flex ; /* включаем flex модель  */
+    justify-content: space-between; /* выравниваем коробочки c правой стороны */
+
+}
+
+.matreshka{
+    width: 70%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid palevioletred;
+    background: cornsilk;
+}
+
+.eshkamasha{
+    width: 90%;
+    height: 300px;
+    border: 3px solid rgb(112, 188, 216);
+    background: rgb(220, 229, 255);
+}
